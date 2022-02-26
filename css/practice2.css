@@ -1,0 +1,55 @@
+body {
+    background-image: url(/images/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+.main{
+    border-radius: 30px;
+}
+#spinnerId{
+    display: none;
+}
+#allCocktail{
+    background-color: rgba(0, 0, 0, 0.746);
+    border-radius: 30px;
+}
+.cocktail-class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding-top: 100px;
+ 
+}
+.cocktail-class img{
+    width: 70%;
+    border-radius: 10px;
+}
+#lengthId{
+    color: rgb(97, 97, 97);
+    font-style: italic;
+    font-size: medium;
+}
+
+@media(min-width: 768px){
+    #allCocktail{
+        display: grid;
+        grid-template-columns: repeat( 2, 1fr);
+        background-color: rgba(0, 0, 0, 0.746);
+        border-radius: 30px;
+    }
+}
+@media(min-width: 992px){
+    #allCocktail{
+        display: grid;
+        grid-template-columns: repeat( 3, 1fr);
+        background-color: rgba(0, 0, 0, 0.746);
+        border-radius: 30px;
+    }
+}

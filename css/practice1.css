@@ -1,0 +1,14 @@
+#photoId{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+}
+section{
+    background-color: rgb(206, 206, 206);
+}
+
+.photo-detail{
+    border: 10px solid red;
+    border-radius: 20px;
+    padding: 10px;
+}
